@@ -1,0 +1,74 @@
+{
+  "$schema": "https://raw.githubusercontent.com/LGUG2Z/komorebi/v0.1.37/schema.bar.json",
+  "monitor": 0,
+  "font_family": "Geist Mono",
+  "theme": {
+    "palette": "Base16",
+    "name": "ClassicDark"
+    
+  },
+  "left_widgets": [
+    {
+      "Komorebi": {
+        "workspaces": {
+          "enable": true,
+          "hide_empty_workspaces": true
+        },
+        "layout": {
+          "enable": true,
+          "display": "Icon"
+        },
+        "focused_window": {
+          "enable": true,
+          "show_icon": false
+        },
+        "focused_container": {
+          "enable": true,
+          "show_icon": false
+        }
+      } 
+    }
+  ],
+  "center_widgets": [
+    {
+      "Date": {
+        "enable": true,
+        "format": "DayDateMonthYear",
+        "label_prefix": "None"
+      }
+    },
+    {
+      "Time": {
+        "enable": true,
+        "format": "TwentyFourHour",
+        "label_prefix": "None"
+      }
+    }
+  ],
+  "right_widgets": [
+    {
+      "Storage": {
+        "enable": true,
+        "label_prefix": "Text"
+      }
+    },
+    {
+      "Memory": {
+        "enable": true,
+        "label_prefix": "Icon"
+      }
+    },
+    {
+      "Cpu": {
+        "enable": true,
+        "label_prefix": "Icon"
+      }
+    },
+    {
+      "Keyboard": {
+        "enable": true,
+        "label_prefix": "Icon"
+      }
+    }
+  ]
+}
